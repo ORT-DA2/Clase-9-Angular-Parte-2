@@ -95,17 +95,17 @@ Algunos otros conceptos a tener en cuenta:
 
 ### El Template y la Metadata de un componente
 
-Sin embargo, como ya sabemos, las clases de los componentes no son lo único necesario que precisamos para armar nuestra app en angular, precisamos darle el HTML, la vista, la UI. Todo eso y ms lo definimos a través del **metadata** del componente.
+Sin embargo, como ya sabemos, las clases de los componentes no son lo único necesario que precisamos para armar nuestra app en angular, precisamos darle el HTML, la vista, la UI. Todo eso y más lo definimos a través del **metadata** del componente.
 
 Una clase como la que definimos anteriormente se convierte en un componente de Angular cuando le definimos la metadata de componente.
 
 Angular precisa de esa metadata para saber como instanciar el componente, estructurar la view, y ver la interacción:
 
-- Usamos un decorator, siendo el scope de tal decorator la feature que decora.	Siempre son prefijos con un ```@```.
+- Usamos un decorator, siendo el scope de tal decorator la feature que decora.	Siempre llevan el prefijo ```@```.
 
 - Angular tiene un conjunto predefinido de decoradores que podemos usar, y hasta podemos crearnos los propios.
 
-- El decorator va siempre antes de la definición de la clase, como las DataAnnotations en .NET (no va ;)
+- El decorator va siempre antes de la definición de la clase, como las Data Annotations en .NET (no va ;)
 
 - Es una función y recibe un objeto que define el template.
 
