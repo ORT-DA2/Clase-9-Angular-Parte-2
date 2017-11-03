@@ -405,6 +405,8 @@ Lo que haremos aquí es usar el selector ```pm-pets``` en el root component, es 
 De manera que en ```app.component.ts``` quedaría algo como:
 
 ```typescript
+import { Component } from '@angular/core';
+
 @Component({
   selector: 'my-app',
   template: `
