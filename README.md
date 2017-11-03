@@ -451,7 +451,7 @@ export class AppModule { }
 
 ¿Como hace el componente para saber a dónde buscar el component? Cómo ya dijimos, ahora lo encuentra porque pertenecen al mismo modulo. El módulo que sea dueño de este component es examinado para encontrar todas las directivas que pertenecen al mismo.
 
-### 5. Usando Data Binding para mostrar datos dinmicos
+### 5. Usando Data Binding para mostrar datos dinámicos
 
 Tenemos una pequeña tabla que muestra cosas, pero todavía no tiene ningún tipo de interacción, por lo que comenzaremos a explorar más a fondo las features del data binding que nos permiten manejar eventos y user input.
 
