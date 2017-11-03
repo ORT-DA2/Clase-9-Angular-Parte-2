@@ -509,10 +509,10 @@ class Pet {
     birthDate: Date;
     weight: number;
     breedName: string;
-    imageBase64: string;
+    imageUrl: string;
 
     constructor(id:string, name:string, age:number,size:string,
-    birthDate:Date, weight:number,breedName:string,  imageBase64: string){
+    birthDate:Date, weight:number,breedName:string,  imageUrl: string){
         this.id = id;
         this.name = name;
         this.age = age;
@@ -520,7 +520,7 @@ class Pet {
         this.birthDate = birthDate;
         this.weight = weight;
         this.breedName = breedName;
-        this.imageBase64 = imageBase64;
+        this.imageUrl = imageUrl;
     }
 }
 
